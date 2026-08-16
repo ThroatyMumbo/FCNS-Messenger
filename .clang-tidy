@@ -1,0 +1,27 @@
+---
+Checks: >
+  bugprone-*,
+  clang-analyzer-*,
+  misc-*,
+  performance-*,
+  readability-*,
+  -bugprone-easily-swappable-parameters,
+  -bugprone-signed-bitwise,
+  -bugprone-too-small-loop-variable,
+  -misc-include-cleaner,
+  -readability-avoid-nested-conditional-operator,
+  -readability-braces-around-statements,
+  -readability-identifier-length,
+  -readability-implicit-bool-conversion,
+  -readability-isolate-declaration,
+  -readability-magic-numbers,
+  -readability-math-missing-parentheses,
+  -readability-trailing-comma,
+  -readability-uppercase-literal-suffix
+
+CheckOptions:
+  readability-function-cognitive-complexity.Threshold: 30
+
+WarningsAsErrors: ''
+HeaderFilterRegex: 'src/.*\.h$'
+FormatStyle: file

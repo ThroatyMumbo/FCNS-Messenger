@@ -1,0 +1,14 @@
+BasedOnStyle: LLVM
+IndentWidth: 4
+ColumnLimit: 80
+BreakBeforeBraces: Attach
+PointerAlignment: Right
+AlignConsecutiveMacros: true
+AlignConsecutiveDeclarations: true
+AlignTrailingComments: true
+AllowShortFunctionsOnASingleLine: All
+AllowShortIfStatementsOnASingleLine: false
+AllowShortLoopsOnASingleLine: false
+KeepEmptyLinesAtTheStartOfBlocks: false
+SortIncludes: false
+ReflowComments: false

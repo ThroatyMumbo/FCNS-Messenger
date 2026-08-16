@@ -1,0 +1,7 @@
+*.o
+*.d
+*.nes
+*.nes.elf
+*.mlb
+__pycache__/
+captures/
