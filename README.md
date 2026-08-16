@@ -1,7 +1,8 @@
 # Famicom Network System Messaging Example
 
-<img src="screenshots/screen1.png" alt="Start screen" width="320">
-<img src="screenshots/screen2.png" alt="Message screen" width="320">
+| Start screen | Message screen |
+|--------|--------|
+| <img src="screenshots/screen1.png" alt="Start screen" width="320"> | <img src="screenshots/screen2.png" alt="Message screen" width="320"> |
 
 This is a basic example app that demonstrates sending and receiving text messages between two Famicom Network System units connected over a phone line.
 
